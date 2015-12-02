@@ -7,6 +7,6 @@ Package.describe({
 
 Package.onUse(function (api) {
   api.use('angular:angular@1.2.0');
-  api.addFiles('ng-file-upload-all.js');
+  api.addFiles('ng-file-upload-all.js', 'client');
 });
 
